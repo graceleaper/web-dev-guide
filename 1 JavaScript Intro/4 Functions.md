@@ -72,7 +72,8 @@ function addition (a, b) {
     return sum
 }
 
-console.log(addition(7, 5))
+console.log(addition(7, 5)) // 12
+addition(7,5) // 12
 ```
 
 * `return` is different from `console.log`
@@ -94,5 +95,5 @@ function isEven(x) {
 }
 
 console.log(isEven(555)) // return false
-console.log(isEven(400)) // return true
+isEven(400) // return true
 ```
